@@ -1,0 +1,282 @@
+.container
+{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+    background-position: left;
+    transition: background-color, 0.2s;
+}
+a:hover
+{
+    background-color: dimgray;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+    background-position: right;
+}
+li
+{
+    list-style-type: none;
+}
+.contenant
+{
+    width:50%;
+    display: flex  ;
+    font-size: 20px;
+    color: black;
+    margin-left: 20px;
+    justify-content: space-evenly;
+    margin-right: 15%;
+}
+.sous-container
+{
+    width: 50%;
+    margin-left: 20%;
+}
+.container-footer
+{
+    width: 100%;
+    border: solid 1px;
+    background-color: rgba(19, 17, 17, 0.895);
+    clear: both;
+    text-align: center;
+    /*height: 40%;*/
+    margin-top: 100px;
+}
+.sous-container-footer
+{
+    padding-top: 1%;
+}
+body
+{
+    background-color: lightslategray;
+}
+.ecrit
+{
+    color: white;
+    padding-top: 1%;
+}
+main
+{
+    margin: auto;
+    padding: auto;  
+}
+.first-sous-main
+{
+    width: 25%;
+    float: left;
+    /*padding: 10%;*/
+    margin-left: 25%;
+    margin-top: 5%;
+}
+.second-sous-main
+{
+    width: 25%;
+    background-color: white;
+    float: right;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-bottom: 5%;
+    padding: 25px 10px 50px 10px;
+    border-radius: 4%;
+}
+button
+{
+    border-radius: 15px;
+    background-color: rgb(254, 168, 139);
+    color: white;
+    padding: 1%;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out;
+    text-decoration: none;
+    border: 1px solid white;
+}
+button:hover 
+{
+    box-shadow: -5px -5px 0px 0px green;
+    text-decoration: none;
+    color: black;
+    font-style: oblique;
+}
+#button-second
+{
+    margin-left: 40px;
+}
+#button-one
+{
+    transition: background-color, 1s ease;
+}
+select
+{
+    width: 40%;
+    padding: 1%;
+    border-radius: 5px;
+}
+#first-select
+{
+    margin-top: 3%;
+}
+#second-select
+{
+    margin-top: 5%;
+    margin-right: 25%;
+}
+#quantite
+{
+    align-items: center;
+    margin-top: 3%;
+    margin-right: 25%;
+}
+#nombre
+{
+    width: 12%;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: rgb(254, 168, 139);
+    text-decoration: none;
+    border: 1px solid white;
+    margin-right: 50%;
+    margin-top: 1%;
+    
+}
+#nombre:hover
+{
+    background-color: green;
+    text-decoration: none;
+}
+.reseaux-link
+{
+    border-radius: 50%;
+    color:  rgba(33, 35, 35, 0.976);
+    font-size: 30px;
+    margin-top: 50px;
+}
+#in, #fb, #tw, #yo
+{
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 6px;
+}
+h2
+{
+    font-weight: bold;
+}
+#euro
+{
+    font-weight: bold;
+}
+#àpartir
+{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#shirt
+{
+    font-size: 15px;
+}
+.image-container
+{
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-link 
+{
+    display: inline-block;
+    width: 100%;
+}
+.image-link:target 
+{
+    outline: none;
+}
+::-webkit-scrollbar 
+{
+    background-color: white;
+    /*scrollbar-color: black white;*/
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    background-color: black;
+    border-radius: 10px;
+    width: 10px;
+}
+.chiffre
+{
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    justify-content: space-evenly;
+    display: flex;
+}
+#chi1, #chi2, #chi3, #chi4
+{
+    border-radius: 50%;
+    padding: 5px;
+    text-decoration: none;
+    background-color: gray;
+    width: 30px;
+    height: 30px;
+}
+#chi1:hover, #chi2:hover, #chi3:hover, #chi4:hover
+{
+    color: white;
+    background-color: lightslategray;
+}
+button
+{
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    margin-left: 20%;
+}
+button::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    
+}
+button:hover 
+{
+    color: #e8e8e8;
+}
+   
+button:hover::before 
+{
+    width: 100%;
+}
