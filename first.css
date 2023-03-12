@@ -241,7 +241,7 @@ h2
     color: white;
     background-color: lightslategray;
 }
-button
+/*button
 {
     padding: 15px 25px;
     border: unset;
@@ -279,4 +279,4 @@ button:hover
 button:hover::before 
 {
     width: 100%;
-}
+}*/
